@@ -52,15 +52,14 @@ const Header = () => {
   console.log(user)
 
   return (
-    <header className="header flex items-center" ref={headerRef}>
+    <header className="header flex items-center" ref={headerRef} >
       <div className="container">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <img src={logo} alt="Logo" />
-
+          <img src={logo} alt="Logo"/>
           {/* Menu */}
           <div className="navigation" ref={menuRef} onClick={toggleMenu}>
-            <ul className="menu flex items-center gap-[2.7rem]">
+            <ul className="menu flex items-center gap-[3.7rem]">
               {navLinks.map((link, index) => (
                 <li key={index}>
                   <NavLink

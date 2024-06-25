@@ -5,7 +5,7 @@ import './final.css'
 function App() {
   return (
   <>
-    <div className="scale-container">
+    <div>
     <Layout/>
     </div>
   </>
