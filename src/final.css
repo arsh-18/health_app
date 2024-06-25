@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevent scrollbars from appearing */
+  }
+  
+  .scale-container {
+    transform: scale(0.8); /* Scale the content to 80% */
+    transform-origin: top left; /* Ensure the scaling is done from the top left */
+    width: 125%; /* Adjust the width to compensate for the scaling */
+    height: 125%; /* Adjust the height to compensate for the scaling */
+  }
