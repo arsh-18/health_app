@@ -1,0 +1,45 @@
+/* Services.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+.coming-soon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Playfair Display', serif;
+  color: white;
+  text-align: center;
+  background: linear-gradient(135deg, #00c6ff, #ffb88c);
+  background-size: 400% 400%;
+  animation: gradientBackground 15s ease infinite;
+}
+
+.coming-soon-text {
+  font-size: 4rem;
+  animation: fadeInOut 3s ease-in-out infinite;
+  font-weight: 700;
+}
+
+@keyframes fadeInOut {
+  0%, 100% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes gradientBackground {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
